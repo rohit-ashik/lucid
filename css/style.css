@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+/* font-family: 'Quicksand', sans-serif;
+font-family: 'Source Sans Pro', sans-serif; */
+
+/********************************************
+           header-section-desigon
+********************************************/
+
+
+
+
+.first-section{
+    background-image: url(../images/banner-background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+   
+    
+}
+/********************************************
+           nav-section-desigon
+********************************************/
+
+.f-logo a{
+    font-size: 24px;
+    font-family: 'Quicksand', sans-serif;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.menu-design ul li a{
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    font-family: 'Source Sans Pro', sans-serif; 
+}
+
+
+/********************************************
+           banner-section-desigon
+********************************************/
+.b-sec-design{
+    padding-top: 60px;
+}
+.bnr-left{
+   
+    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    align-items: center;
+    box-sizing: border-box;
+    
+    
+}
+.banner-left h6{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #008ed6;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: 'Source Sans Pro', sans-serif; 
+    
+}
+.banner-left h1{
+    font-size: 48px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif; 
+    margin: 24px 0px 24px 0px;
+    
+}
+.banner-left p{
+    font-size: 18px;
+    color: #707070;
+    font-family: 'Source Sans Pro', sans-serif; 
+}
+.banner-btn button{
+    text-transform: uppercase;
+    padding: 10px 16px;
+}
+.banner-btn :nth-child(1){
+    background-color:#008ed6 ;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: 14px;
+    padding: 11px 17px;
+    margin-right: 16px;
+}
+.banner-btn :nth-child(2){
+    background-color:transparent ;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: 14px;
+    border: 1px solid #5e5e5e;
+}
+
+
+
+
+
+
+
+/********************************************
+           Amazing Feature-section-desigon
+********************************************/
+
+.feature-section{
+    width: 100%;
+    padding: 80px 0px;
+    
+}
+
+.feature-title{
+    text-align: center;
+}
+.feature-title p{
+    color: #008ed6;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.feature-title h2{
+    color: black;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: 36px;
+    margin-bottom: 24px;
+}
+
+
+.amazing-features{
+    text-align: center;
+}
+.amazing-features a i{
+    height: 60px;
+    width: 60px;
+    color: #008ed6;
+    border-radius: 50%;
+    font-size: 28px;
+    line-height: 60px;
+    border: 1px solid #dadada;
+    margin-bottom: 36px;
+}
+.amazing-features h4{
+    font-size: 24px;
+    margin-bottom: 0;
+}
+.amazing-features p{
+    font-size: 18px;
+    color: #707070;
+    font-family: 'Source Sans Pro', sans-serif; 
+    padding: 16px;
+}
+
+
+
+/********************************************
+           Beautiful device-section-desigon
+********************************************/
+.beautiful-device{
+    width: 100%;
+    padding: 80px 0px;
+}
+.responsive-title{
+    padding-top: 48px ;
+}
+
+.responsive-title p{
+    color: #008ed6;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.responsive-title h2{
+    color: black;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: 36px;
+    margin-top: 0px;
+}
+
+.responsive-body{
+    margin-top: 16px;
+    
+}
+.responsive-body p{
+    font-size: 18px;
+    color: #707070;
+    font-family: 'Source Sans Pro', sans-serif; 
+    margin-bottom: 32px;
+}
+
+.res-footer-design{
+    margin-bottom: 16px;
+    
+}
+.res-footer-design a i{
+    color: #008ed6;
+   font-size: 18px;
+   margin-right: 16px;
+
+}
+.res-footer-design p{
+    
+    
+}
+.footer-3 a i{
+    padding-right: 7px;
+}
+
+
+
+
+/********************************************
+           Super Easy-section-desigon
+********************************************/
+.super-easy-section{
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 80px 0px;
+}
+.super-section{
+    width: 100%;
+}
+.super-left{
+    width: 100%;
+}
+
+.super-right{
+    width: 100%;
+}
+
+
+
+
+/********************************************
+          Reveiw-section-desigon
+********************************************/
+.reveiw-section{
+    padding: 80px 0px 120px 0px;
+    background-image: url(../images/testimonial-background.png) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.reveiw-left{
+    padding: 48px 0px;
+}
+.reveiw-left p{
+    color: #ffffff;
+    font-style: italic;
+    font-size: 20px;
+}
+.reveiwer{
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+    
+}
+.user-details{
+    margin-left: 16px;
+    margin-top: 8px;
+}
+.user-details h5{
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.user-details h6{
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+
+
+/********************************************
+           Get this-section-desigon
+********************************************/
+.get-this{
+    width: 100%;
+    padding: 32px 0px;
+    background-color: black;
+}
+.theme-section{
+    width: 100%;
+    
+}
+.theme-section span{
+    color: #ffffff;
+    font-weight: 600;
+}
+.theme-section h2{
+    font-weight: lighter;
+    color: #ffffff;
+    margin-bottom: 0px;
+}
+.theme-btn{
+   
+}
+
+.theme-btn button{
+    text-transform: uppercase;
+    padding: 10px 16px;
+}
+.theme-btn :nth-child(1){
+    background-color:transparent ;
+    
+    border: none;
+    border: 1px solid #5e5e5e;
+    outline: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: 14px;
+    
+    margin-right: 16px;
+}
+.theme-btn :nth-child(2){
+    background-color:#008ed6 ;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: 14px;
+    padding: 11px 17px;
+}
