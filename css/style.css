@@ -43,6 +43,12 @@ font-family: 'Source Sans Pro', sans-serif; */
     color: #ffffff;
     font-family: 'Source Sans Pro', sans-serif; 
 }
+.menu-design ul li a:hover{
+    background-image: url(../images/bottom-design.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+   
+}
 
 
 /********************************************
@@ -346,3 +352,423 @@ font-family: 'Source Sans Pro', sans-serif; */
     font-size: 14px;
     padding: 11px 17px;
 }
+
+
+
+
+/********************************************
+           Pricing-section-desigon
+********************************************/
+
+.pricing-section{
+    padding: 80px 0px;
+    width: 100%;
+}
+.plan-1{
+    width: 100%;
+    text-align: center;
+    border: 1px solid rgb(223, 223, 223);
+}
+.plan-header{
+    border-bottom: 1px solid rgb(223, 223, 223);
+}
+.plan-header h3{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    padding: 16px 0px;
+}
+.plan-body{
+    padding: 16px;
+    border-bottom: 1px solid rgb(223, 223, 223);
+}
+.plan-body h2{
+    font-size: 60px;
+    font-weight: 600;
+    position: relative;
+}
+.plan-body h2::before{
+    position: absolute;
+    content: "$";
+    font-size: 30px;
+    left: 36%;
+    top: 14%;
+} 
+.plan-body p{
+    font-size: 18px;
+    color: #707070;
+    font-family: 'Source Sans Pro', sans-serif; 
+}
+
+.plan-body h2 span{
+    font-size: 30px;
+    
+   
+}
+
+.plan-footer p{
+    padding: 32px 16px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    color: #707070;
+}
+.plan-footer p span{
+    color: #008ed6;
+}
+.plan-footer button{
+    padding: 12px 32px;
+    margin-bottom: 16px;
+    border: none;
+    background-color: transparent;
+    color: #008ed6;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid rgb(223, 223, 223);
+    text-transform: uppercase;
+}
+
+.plan-1:hover .plan-header h3{
+    color: #008ed6;
+    transition: all .3s ease;
+}
+
+.plan-1:hover .plan-body{
+    color: #ffffff;
+    background-color: #008ed6;
+    transition: all .3s ease;
+}
+.plan-1:hover .plan-body h2{
+    color: #ffffff;
+    transition: all .3s ease;
+}
+.plan-1:hover .plan-body p{
+    color: #ffffff;
+    transition: all .3s ease;
+}
+.plan-1:hover .plan-footer button{
+    color: #ffffff;
+    background-color: #008ed6;
+    transition: all .3s ease;
+
+}
+
+
+/********************************************
+        contact us-section-desigon
+********************************************/
+
+.contact-us{
+    padding: 80px 0px 450px 0px;
+    background-color:#f2f2f2;
+    width: 100%;
+    position: relative;
+}
+.contacts{
+    width: 100%;
+}
+
+.contact-features{
+    text-align: center;
+}
+.contact-features a i{
+    height: 60px;
+    width: 60px;
+    color: #008ed6;
+    border-radius: 50%;
+    font-size: 48px;
+    width: 42px;
+    line-height: 60px;
+    
+    margin-bottom: 20px;
+}
+.msg-design a i{
+    font-size: 36px;
+}
+.contact-features h4{
+    font-size: 24px;
+    margin-bottom: 0;
+}
+.contact-features p{
+    font-size: 18px;
+    color: #707070;
+    font-family: 'Source Sans Pro', sans-serif; 
+    padding: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/********************************************
+        send message-section-desigon
+********************************************/
+
+.send-msg{
+    width: 70%;
+    background-color: #15141a;
+    
+    margin: 0 auto;
+    margin-top: 80px;
+    position: absolute;
+    top: 48%;
+    left: 15.6%;
+}
+.form-design{
+    padding: 60px 70px;
+}
+.form-left input{
+    margin-bottom: 20px;
+    padding: 29.5px 16px;
+    background: transparent;
+    border: 1px solid  #616161;
+}
+.form-left input:focus{
+    outline: none;
+    border: 0;
+    background-color: transparent;
+    border-bottom: 1px solid #616161;
+    box-shadow: none;
+}
+.form-right textarea{
+    background: transparent;
+    border: 1px solid  #616161;
+    outline: none;
+   
+
+}
+.form-right textarea:focus{
+    outline: 0;
+    border: 0;
+    background-color: transparent;
+    border-bottom: 1px solid #616161;
+    box-shadow: none;
+}
+.form-btn{
+    text-align: right;
+}
+.form-btn button{
+    text-transform: uppercase;
+    background-color: #008ed6;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: 14px;
+    padding: 16px 36px;
+    margin-top: 24px;
+}
+
+
+
+
+
+/********************************************
+           Map Section
+********************************************/
+.map-section{
+    width: 100%;
+}
+.my-map{
+    width: 100%;
+}
+.my-map iframe{
+    margin-bottom: 0px;
+    padding-bottom:0px ;
+}
+
+
+
+/********************************************
+          Footer Section
+********************************************/
+footer{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.footer-section{
+    background-color: #15141a;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding: 24px 0px;
+}
+.menus-footer{
+
+}
+.menus-footer{
+    
+}
+.footer-social-menus{
+    text-align: center;
+    padding: 10px 0px;
+}
+.footer-social-menus p{
+    
+    color: #707070;
+    font-family: 'Source Sans Pro', sans-serif; 
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    font-weight: 600;
+}
+.menus-footer ul li{
+    
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    list-style: none;
+    
+}
+.menus-footer ul li a i{
+    padding: 0px 16px 16px 16px;
+    color: #CCCCCC;
+    font-size: 16px;
+    
+    
+}
+.menus-footer ul:nth-child(3){
+    color: #008ed6;
+}
+
+.menus-footer ul li a i:hover{
+    transition: all .3s ease;
+    color: #008ed6;
+    transform: rotate(360deg);
+    transition-duration: 1.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+/********************************************
+           Media Queries
+********************************************/
+
+@media only screen and (min-width: 1200px) {
+    .plan-body h2::before{
+        position: absolute;
+        content: "$";
+        font-size: 30px;
+        left: 36%;
+        top: 14%;
+    } 
+  }
+
+
+@media only screen and (max-width: 1199px) {
+    .plan-body h2::before{
+        position: absolute;
+        content: "$";
+        font-size: 30px;
+        left: 33%;
+        top: 14%;
+    } 
+  }
+
+  @media only screen and (max-width: 992px) {
+    .plan-body h2::before{
+        position: absolute;
+        content: "$";
+        font-size: 30px;
+        left: 25%;
+        top: 14%;
+        
+    } 
+    
+    .form-btn{
+        text-align: center;
+    }
+    .banner-btn :nth-child(1){
+        
+        margin-bottom: 16px;
+    }
+  }
+ 
+  @media only screen and (max-width: 768px) {
+    .plan-body h2::before{
+        position: absolute;
+        content: "$";
+        font-size: 30px;
+        left: 43%;
+        top: 14%;
+    } 
+    .contact-us{
+        padding: 80px 0px 650px 0px;
+        background-color:#f2f2f2;
+        width: 100%;
+        position: relative;
+    }
+    .send-msg{
+        width: 70%;
+        background-color: #15141a;
+        
+        margin: 0 auto;
+        margin-top: 80px;
+        position: absolute;
+        top: 55%;
+        left: 15%;
+    }
+    
+  }
+  @media only screen and (max-width: 576px) {
+    .plan-body h2::before{
+        position: absolute;
+        content: "$";
+        font-size: 30px;
+        left: 42%;
+        top: 14%;
+    } 
+    .form-design{
+        padding: 60px 30px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .plan-body h2::before{
+        position: absolute;
+        content: "$";
+        font-size: 30px;
+        left: 38%;
+        top: 14%;
+    } 
+  }
+  @media only screen and (max-width: 320px) {
+    .plan-body h2::before{
+        position: absolute;
+        content: "$";
+        font-size: 30px;
+        left: 35%;
+        top: 14%;
+    } 
+    .banner-btn :nth-child(1){
+        
+        margin-bottom: 16px;
+    }
+    .theme-btn :nth-child(1){
+        
+        
+        margin-bottom: 16px;
+    }
+  }
