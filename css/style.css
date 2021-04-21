@@ -175,9 +175,12 @@ font-family: 'Source Sans Pro', sans-serif; */
     color: #008ed6;
     border-radius: 50%;
     font-size: 28px;
-    line-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: 1px solid #dadada;
     margin-bottom: 36px;
+    margin: 30px auto;
 }
 .amazing-features h4{
     font-size: 24px;
